@@ -74,6 +74,103 @@
 }
 
 /* Any custom CSS below here */
+header, h1,
+.nameAndDecorators-3ERwy2, /*name in member list*/
+.headerNameWrapper-3res2c, /*nickname in profile popup*/
+.username-h_Y3Us, /*username in chat*/
+.headerText-15Q25Z, /*username#tag in profile popup*/
+.nickname-2gQ76l, /*nickname in profile popup*/
+.nameTag-sc-gpq, /*your username in the bottom-left*/
+.detailsInner-2IFSJC, /*settings: your username in My Account*/
+.activityName-3YXl6e, /*user's activity name, includes song and author titles*/
+.emojiUploader-1f0pVx, /*server settings: emoji's uploader*/
+.userHook-3AdCBF, /*server settings: username in audit log*/
+.secondaryHeader-2oeRPO, /*server settings: integrations row headers such as bot names*/
+.roleName-2ZJJYR, /*role name in profile*/
+.roleName-35qCvR, .roleName-3910zV, /*role name in server settings*/
+.membersGroup-2eiWxl, /*role name in member list*/
+.roleRow-3HnunM, /*role name in context menu*/
+.roleMention-11Aaqi, /*role name mention in chat*/
+.wrapper-1ZcZW-, /*username or channel name mention in chat*/
+[data-slate-object="inline"] .mention, /*mention in message box*/
+.systemMessage-1H1Z20 .anchorUnderlineOnHover-2qPutX, /* links / usernames in system messages */
+.name-3BUDLf, /*category name in sidebar*/
+.name-28HaxV, /*channel name in sidebar*/
+.title-17SveM, /*channel name in chat header*/
+.title-3hptVQ, /*channel name in channel topic popup*/
+.bd-author, .bd-meta .bd-link, /*BD: plugin/theme author*/
+.timestamp-p1Df1m /*chat message hover timestamp (counts as a header)*/ {
+	font-family: var(--dplus-font-header), 'Righteous', var(--dplus-font-header-ja), 'RocknRoll One', var(--dplus-font-header-ko), 'Black Han Sans', var(--dplus-font-header-ru), 'Russo One', var(--dplus-font-header-hi), 'Palanquin Dark', var(--dplus-font-header-th), 'Mitr', var(--dplus-font-header-el), 'Alegreya Sans', 'Lalezar', 'Century Gothic', 'Franklin Gothic Medium', 'Britannic', 'Helvetica Neue', 'Helvetica', 'Whitney', sans-serif !important;
+}
+.chat-2ZfjoI, .wrapper-22ayhK {
+	background-color: transparent;
+	border-radius: var(--dplus-radius-ui);
+}
+.chatContent-3KubbW, .form-3gdLxP:before, .replying-eZ7p5z:before {
+	background: transparent !important;
+}
+.wrapper-15CKyy, #app-mount .children-3xh0VB:after {display: none;}
+.group-spacing-0 { --group-spacing: 0px; }
+.group-spacing-4 { --group-spacing: 4px; }
+.group-spacing-8 { --group-spacing: 8px; }
+.group-spacing-16 { --group-spacing: 10px; }
+.group-spacing-24 { --group-spacing: var(--dplus-spacing-ui); }
+.messageListItem-ZZ7v6g .message-2CShn3,
+.quotedChatMessage-PxNsZi .message-2CShn3 {
+	background: var(--dplus-bgc-chatmsg);
+}
+.messageListItem-ZZ7v6g .groupStart-3Mlgv1, .backgroundFlash-1X5jVs.groupStart-3Mlgv1, .quotedChatMessage-PxNsZi .groupStart-3Mlgv1 {
+	border-radius: var(--dplus-radius-ui) var(--dplus-radius-ui) 0 0;
+  margin-top: 0;
+}
+:not(.divider-IqmEqJ) + .messageListItem-ZZ7v6g:has(.groupStart-3Mlgv1), .messageListItem-ZZ7v6g + .backgroundFlash-1X5jVs:has(.avatar-2e8lTP) {
+  margin-top: var(--group-spacing);
+}
+.wrapper-30-Nkg:hover, .wrapper-30-Nkg.selected-2LX7Jy {
+	background: var(--dplus-bgc-chatmsg-hover) !important;
+}
+.scrollerSpacer-3AqkT9 { height: var(--dplus-spacing-ui);}
+.wrapper-30-Nkg.cozy-VmLDNB.zalgo-26OfGz[aria-labelledby*="upload"] {background-color: var(--dplus-bgc-chatmsg);}
+.cozy-VmLDNB .repliedMessage-3Z6XBG {max-width: 100%;}
+		/* Beginning of chat */
+.container-1yy5xN {
+	background: var(--dplus-bgc-chatmsg);
+	border-radius: 0 0 var(--dplus-radius-ui) var(--dplus-radius-ui);
+	margin: 0;
+	padding: var(--dplus-spacing-ui);
+}
+.container-ZMc96U.themed-Hp1KC_ {
+	background: var(--dplus-bgc-ui-base);
+}
+	/* New/Old/Load messages bar */
+.newMessagesBar-1hF-9G {
+	background-color: var(--dplus-accent-ui) !important;
+	border-radius: 0 0 var(--dplus-radius-ui) var(--dplus-radius-ui) !important;
+	width: 100%;
+}
+.newMessagesBar-1hF-9G button:last-child {
+	font-size: 12px;
+	text-transform: lowercase;
+}
+.barBase-3xxDXu {
+	padding: 0;
+	left: 0; right: 0;
+}
+#app-mount .jumpToPresentBar-9P20AM {
+	background-color: var(--dplus-accent-ui);
+	border-radius: var(--dplus-radius-ui) var(--dplus-radius-ui) 0 0;
+	bottom: 0;
+	padding: 0;
+	cursor: pointer;
+	z-index: 2;
+}
+.hasMore-3e72_v {
+	background: var(--dplus-bg-1);
+	color: var(--dplus-accent-ui);
+	border: 2px solid var(--dplus-accent-ui);
+	margin: 0
+}
+
 .messageListItem-ZZ7v6g:has(+ .messageListItem-ZZ7v6g .avatar-2e8lTP,  + .backgroundFlash-1X5jVs .avatar-2e8lTP, + .scrollerSpacer-3AqkT9, + .divider-IqmEqJ ) .groupStart-3Mlgv1:has(.avatar-2e8lTP), 
 .quotedChatMessage-PxNsZi:has(+ .messageListItem-ZZ7v6g .groupStart-3Mlgv1, > div) .groupStart-3Mlgv1:has(.avatar-2e8lTP),
 .backgroundFlash-1X5jVs:has(+ .messageListItem-ZZ7v6g .avatar-2e8lTP, + .backgroundFlash-1X5jVs .avatar-2e8lTP, + .divider-IqmEqJ) .groupStart-3Mlgv1:has(.avatar-2e8lTP) {min-height: calc(var(--dplus-spacing-ui) + var(--dplus-icon-avatar-chat))!important;}
