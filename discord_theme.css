@@ -43,7 +43,7 @@
   --gradient-direction: 320deg;
   --tint-colour: 255,51,159;
   --tint-brightness: 0;
-  --font: 0;
+  --font: "GG Sans";
   --window-padding: 0px;
   --window-roundness: 15px;
   --update-notice-1: none;
