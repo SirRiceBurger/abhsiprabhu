@@ -14,7 +14,12 @@
 @import url('https://discordstyles.github.io/FrostedGlass/dist/FrostedGlass.css');
 @import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
 @import url('https://discordstyles.github.io/Addons/windows-titlebar.css');
-@import url(https://plusinsta.github.io/discord-plus/src/DiscordPlus-source.theme.css);
+@import url('https://plusinsta.github.io/discord-plus/src/DiscordPlus-plugins.theme.css');
+@import url('https://plusinsta.github.io/discord-plus/src/DiscordPlus-extras.theme.css');
+/* Main fonts */
+@import url(https://fonts.googleapis.com/css?family=Poppins:400,700|Roboto:400,700|Righteous);
+/* Localized fonts */
+@import url(https://fonts.googleapis.com/css2?family=Kosugi&family=RocknRoll+One&family=Gothic+A1&family=Black+Han+Sans&family=PT+Sans+Caption&family=Russo+One&family=Palanquin+Dark&family=Raleway:wght@500&family=Commissioner&family=Alegreya+Sans:wght@700&family=Mitr&family=Lalezar&display=swap);
 
 :root {
   --background-image: url('https://i.imgur.com/YnNNbny.jpg');
@@ -61,6 +66,20 @@
   --rs-offline-color: #636b75;
   --rs-streaming-color: #643da7;
   --rs-phone-visible: block;
+  --dplus-icon-avatar-chat: 64px;
+	--dplus-icon-avatar-list: 32px;
+	--dplus-icon-avatar-profile: 80px;
+	--dplus-icon-server-sidebar: 48px;
+	--dplus-icon-server-list: 32px;
 }
 
 /* Any custom CSS below here */
+.messageListItem-ZZ7v6g:has(+ .messageListItem-ZZ7v6g .avatar-2e8lTP,  + .backgroundFlash-1X5jVs .avatar-2e8lTP, + .scrollerSpacer-3AqkT9, + .divider-IqmEqJ ) .groupStart-3Mlgv1:has(.avatar-2e8lTP), 
+.quotedChatMessage-PxNsZi:has(+ .messageListItem-ZZ7v6g .groupStart-3Mlgv1, > div) .groupStart-3Mlgv1:has(.avatar-2e8lTP),
+.backgroundFlash-1X5jVs:has(+ .messageListItem-ZZ7v6g .avatar-2e8lTP, + .backgroundFlash-1X5jVs .avatar-2e8lTP, + .divider-IqmEqJ) .groupStart-3Mlgv1:has(.avatar-2e8lTP) {min-height: calc(var(--dplus-spacing-ui) + var(--dplus-icon-avatar-chat))!important;}
+.cozy-VmLDNB.wrapper-30-Nkg {padding-left: calc(var(--dplus-icon-avatar-chat) + var(--dplus-spacing-ui) * 2);}
+.groupStart-3Mlgv1,
+.divider-IqmEqJ + .messageListItem-ZZ7v6g .message-2CShn3, 
+.divider-IqmEqJ + .backgroundFlash-1X5jVs .message-2CShn3 {
+    border-radius: var(--dplus-radius-ui) var(--dplus-radius-ui) 0 0;
+}
