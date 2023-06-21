@@ -180,3 +180,124 @@ header, h1,
 .divider-IqmEqJ + .backgroundFlash-1X5jVs .message-2CShn3 {
     border-radius: var(--dplus-radius-ui) var(--dplus-radius-ui) 0 0;
 }
+.divider-IqmEqJ:not(.hasContent-31hcsn) {margin: 0; top: 0!important;}
+.divider-IqmEqJ.beforeGroup-1BvJAt, .divider-IqmEqJ.hasContent-1y12-u {margin-top: var(--group-spacing)!important;}
+.divider-IqmEqJ:not(#---new-messages-bar) {
+  border: none;
+  height: fit-content;
+  margin-top: var(--group-spacing)!important;
+}
+.divider-IqmEqJ.hasContent-1y12-u {
+  margin-left: 0 !important;
+  margin-bottom: 0!important;
+  justify-content: start;
+}
+
+.messagesWrapper-RpOMA3:not(.group-spacing-0) .divider-IqmEqJ.hasContent-1y12-u .content-3spvdd {
+  margin-left: var(--dplus-radius-ui) !important;
+}
+.messagesWrapper-RpOMA3.group-spacing-0 .divider-IqmEqJ.hasContent-1y12-u {margin: 0;}
+.content-3spvdd {border-radius: var(--dplus-radius-ui) var(--dplus-radius-ui) 0 0;}
+/*in chat timestamps*/
+.timestampVisibleOnHover-9PEuZS {
+	transition: var(--dplus-anim-short);
+}
+.timestampVisibleOnHover-9PEuZS time {
+	padding: calc(var(--dplus-spacing-ui) / 2);
+	background: var(--dplus-bgc-popout);
+	border-radius: var(--dplus-radius-ui);
+}
+.timestampVisibleOnHover-9PEuZS time:nth-child(2) {
+	margin-left: var(--dplus-spacing-ui);
+}
+.timestampVisibleOnHover-9PEuZS.alt-1dvXnH {
+	left: calc(-5px + var(--dplus-spacing-ui) / 2) !important
+}
+.timestamp-p1Df1m.alt-1dvXnH,
+.compact-2Nkcau .timestamp-p1Df1m {
+	width: 64px !important;
+}
+      /*- 12.4.4 Embeds / Attachments -*/	
+.embed-hKpSrO {
+	border-radius: var(--dplus-radius-ui);
+}
+#app-mount .attachment-1PZZB2,
+#app-mount .wrapper-1FP9YQ {
+	background-color: var(--dplus-bgc-popout)!important;
+	border-color: var(--dplus-accent-ui) !important;
+}
+.attachment-1PZZB2,
+.wrapper-1FP9YQ,
+.audioControls-3fmemK,
+.videoControls-2NzHnF {
+	border-radius: var(--dplus-radius-ui) !important;
+}
+.small-1bZsRQ[style*="transform"] {background-color: var(--background-accent)!important;}
+      /*- 12.4.5 Message Box -*/
+.chat-2ZfjoI form {
+	border-top: none;
+  box-shadow: none;
+	margin: 0 10px 0 0;
+  display: flex;
+  padding: 0;
+  flex-direction: column-reverse;
+}
+#app-mount .channelTextArea-1FufC0 {
+	background-color: transparent;
+	margin-top: var(--dplus-spacing-ui)!important;
+	margin: 0;
+}
+.wrapper-2SplAX {
+	height: 12px;
+	background: var(--dplus-bgc-ui-card);
+	margin-top: var(--dplus-spacing-ui);
+	border-radius: var(--dplus-radius-ui);
+}
+.typing-2J1mQU {
+  position: static;
+  height: 0;
+  overflow: visible;
+}
+.channelbodyAreaDisabled-8rmlrp {
+	background: var(--dplus-bgc-ui-card);
+}
+.scrollableContainer-15eg7h {
+	overflow-y: auto;
+	background-color: var(--dplus-bgc-chatmsg);
+	border-radius: var(--dplus-radius-ui);
+}
+.webkit-QgSAqd .buttons-uaqb-5 {
+	margin-right: calc(var(--dplus-spacing-ui) - 6px);
+}
+.attachedBars-2BCP3l + .scrollableContainer-15eg7h {
+	border-radius: 0 0 var(--dplus-radius-ui) var(--dplus-radius-ui);
+}
+
+.wrapper-1VLyxH foreignObject, .callAvatarMask-fiNMWy foreignObject, .wrapper-1VLyxH + svg foreignObject, .avatarContainerMasked-13fYnN foreignObject, .avatarHint-k7pYop foreignObject,
+.wrapper-3Un6-K foreignObject {mask: none;}
+.wrapper-3Un6-K img, .wrapper-1VLyxH img, .voiceAvatar-lRbblo, .border-2BJQjd, .avatarHint-k7pYop, .wrapper-3mYmFS.ringingIncoming-fibTw-:after, .wrapper-3mYmFS.ringingOutgoing-1NjfRn:after, .avatar-2e8lTP, .option-2KkUJO.user-23VtPS .displayAvatar-3XS1w6  {
+	border-radius: var(--dplus-radius-avatar) !important; }
+.avatar-2e8lTP.clickable-31pE3P:active {translate: none;}
+
+.settingsBanner-1eDJ5w {
+  width: 100%;
+  height: 240px;
+  margin-bottom: -140px;
+  z-index: -1;
+  border-radius: var(--dplus-radius-ui);
+}
+
+.accountProfileCard-lbN7n- {
+  backdrop-filter: opacity(1);
+}
+.settingsBanner-1eDJ5w::after {
+  display: block;
+  content: "";
+  position: relative;
+  width: 100%;
+  height: 100%;
+  opacity: 0.667;
+}
+.theme-light .settingsBanner-1eDJ5w::after { background: white; }
+.theme-dark .settingsBanner-1eDJ5w::after { background: black; }
+
